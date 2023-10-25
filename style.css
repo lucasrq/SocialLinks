@@ -34,7 +34,7 @@ body {
 }
 
 .gradient {
-    background: linear-gradient(to bottom , #e5901898, #68195fab);
+    background: linear-gradient(to bottom, #e5901898, #68195fab);
 }
 
 .username {
@@ -74,6 +74,34 @@ a {
     align-items: center;
     flex-grow: 1;
     padding: 0 45px;
+    
+}
+
+@keyframes shadow-pop-bl {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-25px); /* O objeto sobe */
+    }
+    50% {
+        transform: translateY(0); /* O objeto cai */
+    }
+    65% {
+        transform: translateY(-10px); /* Quica um pouco */
+    }
+    80% {
+        transform: translateY(0); /* Outro salto para baixo */
+    }
+    90% {
+        transform: translateY(-5px); /* Quica mais um pouco */
+    }
+}
+
+
+.list img{
+    animation: shadow-pop-bl 1s infinite;
+
 }
 
 .link>img {
@@ -99,7 +127,7 @@ footer {
 
 
 @media screen and (min-width:815px) {
-    html{
+    html {
         font-size: 20px;
     }
 }
