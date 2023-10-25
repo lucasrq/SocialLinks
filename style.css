@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-image: url(imagens/background.jpg);
+    background-image: url(imagens/camp-7103189_1280\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -34,7 +34,7 @@ body {
 }
 
 .gradient {
-    background: linear-gradient(to right, #5579BA, #41a377);
+    background: linear-gradient(to bottom , #e5901898, #68195fab);
 }
 
 .username {
@@ -45,7 +45,7 @@ body {
 
 .description {
     font-size: 1em;
-    color: #919193;
+    color: #cacad1;
 }
 
 a {
